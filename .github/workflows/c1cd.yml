@@ -28,7 +28,7 @@ jobs:
 
 
         - name: run tests
-          uses: |
+          run: |
             pytest
 
     build-and-publish:
